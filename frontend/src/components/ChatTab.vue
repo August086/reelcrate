@@ -127,7 +127,7 @@ function rendered(content) {
             <div class="min-w-0 flex-1">
               <div
                 v-if="message.content"
-                class="prose prose-pianxia max-w-none !text-[12.5px] !leading-[1.75]"
+                class="prose prose-reelcrate max-w-none !text-[12.5px] !leading-[1.75]"
                 :class="{ 'stream-caret': message.pending }"
                 v-html="rendered(message.content)"
               />

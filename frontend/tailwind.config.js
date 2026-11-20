@@ -91,7 +91,7 @@ export default {
         'spin-slow': 'spinSlow 16s linear infinite',
       },
       typography: (theme) => ({
-        pianxia: {
+        reelcrate: {
           css: {
             '--tw-prose-body': '#46526A',
             '--tw-prose-headings': '#0A1020',

@@ -39,7 +39,7 @@ const proFeatures = [
             </span>
             <span class="rounded-full bg-emerald-50 px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider text-emerald-700">当前可用</span>
           </div>
-          <h3 class="mt-5 text-[17px] font-black text-ink">片匣 Free</h3>
+          <h3 class="mt-5 text-[17px] font-black text-ink">ReelCrate Free</h3>
           <p class="mt-1 text-[11px] leading-5 text-slate-400">给每一次“想把好内容留下来”的冲动。</p>
           <div class="mt-5 flex items-end gap-1.5">
             <span class="font-display text-[44px] font-black leading-none tracking-[-0.06em] text-ink">¥0</span>
@@ -71,7 +71,7 @@ const proFeatures = [
                 Pro · 即将上线
               </span>
             </div>
-            <h3 class="mt-5 text-[17px] font-black">片匣 Pro</h3>
+            <h3 class="mt-5 text-[17px] font-black">ReelCrate Pro</h3>
             <p class="mt-1 text-[11px] leading-5 text-white/45">给需要批量、清晰度与翻译的重度创作者。</p>
             <div class="mt-5 flex items-end gap-1.5">
               <span class="font-display text-[44px] font-black leading-none tracking-[-0.06em] text-white">¥19</span>

@@ -56,7 +56,7 @@ import BrandMark from './BrandMark.vue'
       </div>
 
       <div class="mt-10 flex flex-col gap-4 border-t border-white/10 pt-5 text-[10px] text-white/30 sm:flex-row sm:items-center sm:justify-between">
-        <p>© 2026 片匣 PIANXIA · 仅用于个人学习与内容备份</p>
+        <p>© 2026 ReelCrate · 仅用于个人学习与内容备份</p>
         <p class="inline-flex items-center gap-1.5">
           <Code2 :size="11" />
           Built with yt-dlp · FastAPI · Vue 3

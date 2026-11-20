@@ -21,7 +21,7 @@ if (-not (Test-Path "backend\.env")) {
 }
 
 Write-Host ""
-Write-Host "PIANXIA: http://127.0.0.1:8000"
+Write-Host "REELCRATE: http://127.0.0.1:8000"
 Write-Host ""
 
 & .\.venv\Scripts\python.exe -m uvicorn main:app --app-dir backend --host 127.0.0.1 --port 8000

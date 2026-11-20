@@ -23,7 +23,7 @@ const platforms = ['B 站', 'YouTube', 'TED', '抖音', 'TikTok', 'X', 'Instagra
           不止下载，<span class="text-cobalt-600">更是一次精读。</span>
         </h2>
         <p class="mt-4 text-[14px] leading-7 text-slate-500">
-          从链接到文件，从字幕到结构。片匣把一条视频的完整价值，收进同一个工作台。
+          从链接到文件，从字幕到结构。ReelCrate 把一条视频的完整价值，收进同一个工作台。
         </p>
       </div>
 

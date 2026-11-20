@@ -26,8 +26,8 @@ def _bool_env(name: str, default: bool) -> bool:
 
 class Settings:
     def __init__(self) -> None:
-        self.app_name = "片匣 PIANXIA"
-        self.version = "1.1.0"
+        self.app_name = "ReelCrate"
+        self.version = "1.2.0"
         self.deepseek_api_key = (os.getenv("DEEPSEEK_API_KEY") or "").strip()
         self.deepseek_base_url = (os.getenv("DEEPSEEK_BASE_URL") or "https://api.deepseek.com/v1").rstrip("/")
         self.deepseek_model = (os.getenv("DEEPSEEK_MODEL") or "deepseek-chat").strip()

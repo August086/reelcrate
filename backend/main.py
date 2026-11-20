@@ -32,7 +32,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(name)s: %(message)s",
 )
-log = logging.getLogger("pianxia")
+log = logging.getLogger("reelcrate")
 
 
 @asynccontextmanager
@@ -43,7 +43,7 @@ async def lifespan(_: FastAPI):
 
 
 app = FastAPI(
-    title="片匣 PIANXIA API",
+    title="ReelCrate API",
     version=settings.version,
     docs_url="/api/docs",
     openapi_url="/api/openapi.json",

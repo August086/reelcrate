@@ -16,13 +16,13 @@ from errors import AIUnavailableError, AppError, NoSubtitlesError
 from schemas import ChatRequest, SubtitlePayload
 from url_guard import normalize_and_validate
 
-log = logging.getLogger("pianxia.ai")
+log = logging.getLogger("reelcrate.ai")
 
 subtitle_cache = TTLCache(3600, 60)
 _client: AsyncOpenAI | None = None
 _client_key: str | None = None
 
-SUMMARY_SYSTEM = """你是「片匣」的资深视频内容编辑，擅长把长视频读薄。
+SUMMARY_SYSTEM = """你是「ReelCrate」的资深视频内容编辑，擅长把长视频读薄。
 请只依据用户提供的字幕工作，输出简体中文 Markdown，不要编造字幕中没有的信息。
 
 严格按以下结构输出，使用 ## 二级标题：
@@ -47,7 +47,7 @@ MINDMAP_SYSTEM = """你是知识结构化专家。请把给定的视频总结转
 - 最多三层，节点短句化，每条不超过 22 字。
 - 保留关键数字、方法、结论；不要照抄整段总结。"""
 
-CHAT_SYSTEM = """你是「片匣」的视频内容助手。你只能依据下方字幕回答用户问题。
+CHAT_SYSTEM = """你是「ReelCrate」的视频内容助手。你只能依据下方字幕回答用户问题。
 规则：
 - 用简体中文回答，简洁、具体，必要时引用 [MM:SS] 时间戳。
 - 字幕没有提到的内容，直接说明“字幕中没有提到”，不要猜测。
@@ -135,7 +135,7 @@ async def _asr_events(url: str, info) -> AsyncIterator[tuple[str, object]]:
         finally:
             loop.call_soon_threadsafe(events.put_nowait, ("end", None))
 
-    threading.Thread(target=worker, name="pianxia-asr", daemon=True).start()
+    threading.Thread(target=worker, name="reelcrate-asr", daemon=True).start()
     try:
         while True:
             try:

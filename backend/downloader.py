@@ -28,7 +28,7 @@ from subtitles import (
 )
 from url_guard import normalize_and_validate, safe_filename
 
-log = logging.getLogger("pianxia.downloader")
+log = logging.getLogger("reelcrate.downloader")
 
 PLATFORM_NAMES = {
     "youtube": "YouTube",

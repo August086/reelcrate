@@ -19,7 +19,7 @@ from media import ffmpeg_path
 from schemas import SubtitlePayload, SubtitleSegment
 from subtitles import Segment, language_name, transcript_from_segments
 
-log = logging.getLogger("pianxia.asr")
+log = logging.getLogger("reelcrate.asr")
 
 Progress = Callable[[float, str], None]
 

@@ -1,6 +1,8 @@
-# 片匣 PIANXIA
+# ReelCrate
 
-> 把好视频，收进匣子。
+> Keep the good frames. 把好视频，收进匣子。
+
+[GitHub](https://github.com/August086/reelcrate) · [Release v1.2.0](https://github.com/August086/reelcrate/releases/tag/v1.2.0) · [验收报告](docs/验收报告.md)
 
 粘贴一个链接，提取原画质视频与字幕，再用 AI 把长视频读成五分钟。前端是电影感的工作台，后端直接封装 yt-dlp，不引入数据库和任务队列。
 

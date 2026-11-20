@@ -48,7 +48,7 @@ onBeforeUnmount(() => {
     :class="scrolled || menuOpen ? 'border-line/90 bg-white/85 shadow-[0_8px_30px_-24px_rgba(10,16,32,.4)] backdrop-blur-xl' : 'border-transparent bg-paper/70 backdrop-blur-md'"
   >
     <div class="shell flex h-16 items-center justify-between gap-4">
-      <a href="#" class="shrink-0" aria-label="片匣首页" @click.prevent="emit('search')">
+      <a href="#" class="shrink-0" aria-label="ReelCrate 首页" @click.prevent="emit('search')">
         <BrandMark />
       </a>
 

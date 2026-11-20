@@ -231,7 +231,7 @@ async function paste() {
                     </div>
                     <div class="absolute bottom-4 left-4 right-4">
                       <p class="text-[17px] font-bold leading-6 text-white">如何把碎片时间，变成自己的知识体系</p>
-                      <p class="mt-1 text-[11px] text-white/55">片匣 · 每日精选</p>
+                      <p class="mt-1 text-[11px] text-white/55">ReelCrate · 每日精选</p>
                     </div>
                     <span class="absolute left-1/2 top-[42%] flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-white/15 text-white backdrop-blur-md">
                       <Play :size="22" class="ml-1" fill="currentColor" />

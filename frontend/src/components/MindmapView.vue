@@ -235,7 +235,7 @@ onBeforeUnmount(() => {
 
       <div class="flex items-center justify-between border-t border-line px-3 py-2 text-[9px] text-slate-400">
         <span>滚轮缩放 · 拖拽平移 · 双击节点折叠</span>
-        <span class="font-semibold text-slate-500">片匣 AI 导图</span>
+        <span class="font-semibold text-slate-500">ReelCrate AI 导图</span>
       </div>
     </div>
 

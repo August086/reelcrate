@@ -58,10 +58,10 @@ export async function exportMindmapPng(hostElement, filename = 'mindmap.png') {
 }
 
 export function safeExportName(title, ext) {
-  const base = String(title || '片匣思维导图')
+  const base = String(title || 'ReelCrate思维导图')
     .replace(/[\\/:*?"<>|\u0000-\u001f]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim()
     .slice(0, 60)
-  return `${base || '片匣思维导图'}.${ext}`
+  return `${base || 'ReelCrate思维导图'}.${ext}`
 }

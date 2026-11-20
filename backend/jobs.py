@@ -14,7 +14,7 @@ from downloader import download_video, get_direct_url
 from errors import AppError
 from schemas import JobInfo
 
-log = logging.getLogger("pianxia.jobs")
+log = logging.getLogger("reelcrate.jobs")
 
 
 @dataclass
@@ -58,10 +58,10 @@ class JobManager:
         self._lock = threading.RLock()
         self._executor = ThreadPoolExecutor(
             max_workers=settings.max_concurrent_downloads,
-            thread_name_prefix="pianxia-dl",
+            thread_name_prefix="reelcrate-dl",
         )
         self._stop = threading.Event()
-        self._cleaner = threading.Thread(target=self._cleanup_loop, name="pianxia-janitor", daemon=True)
+        self._cleaner = threading.Thread(target=self._cleanup_loop, name="reelcrate-janitor", daemon=True)
         self._cleaner.start()
         self._cleanup_orphans()
 

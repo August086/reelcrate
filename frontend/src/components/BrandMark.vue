@@ -34,14 +34,14 @@ defineProps({
     </svg>
     <span v-if="!markOnly" class="flex flex-col leading-none">
       <span
-        class="font-display text-[20px] font-black tracking-[-0.05em]"
+        class="font-display text-[18px] font-black tracking-[-0.055em]"
         :class="light ? 'text-white' : 'text-ink'"
-        >片匣</span
+        >ReelCrate</span
       >
       <span
-        class="mt-1 text-[8px] font-bold uppercase tracking-[0.28em]"
+        class="mt-1 text-[7px] font-bold uppercase tracking-[0.22em]"
         :class="light ? 'text-white/45' : 'text-slate-400'"
-        >Pianxia</span
+        >Video Vault</span
       >
     </span>
   </span>

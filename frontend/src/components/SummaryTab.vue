@@ -163,7 +163,7 @@ const canRetryAsr = computed(() => Boolean(asrInfo.value?.asr_available && props
         {{ summary.message || '正在生成…' }}
       </div>
 
-      <div class="prose prose-pianxia max-w-none" :class="{ 'stream-caret': running }" v-html="html" />
+      <div class="prose prose-reelcrate max-w-none" :class="{ 'stream-caret': running }" v-html="html" />
 
       <div class="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t border-line pt-3 text-[10px] text-slate-400">
         <span class="inline-flex items-center gap-1 font-semibold text-slate-500">

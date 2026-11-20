@@ -20,6 +20,6 @@ if [ ! -f "backend/.env" ]; then
 fi
 
 echo ""
-echo "片匣 PIANXIA: http://127.0.0.1:8000"
+echo "ReelCrate: http://127.0.0.1:8000"
 echo ""
 exec .venv/bin/python -m uvicorn main:app --app-dir backend --host 127.0.0.1 --port 8000
